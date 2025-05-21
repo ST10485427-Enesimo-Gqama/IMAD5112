@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/questionmarks"
+    tools:context=".Review">
+
+    <!-- TextView -->
+    <TextView
+        android:id="@+id/txtReview"
+        android:layout_width="match_parent"
+        android:layout_height="547dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:textSize="25sp" />
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/btnRetake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retake"
+        android:textSize="30dp"
+        android:layout_marginBottom="29dp"/>
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
